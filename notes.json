@@ -1,0 +1,104 @@
+{
+  "1": {
+    "open_note": "E",
+    "notes": [
+      { "fret": 1, "note": "F" },
+      { "fret": 2, "note": "F#" },
+      { "fret": 3, "note": "G" },
+      { "fret": 4, "note": "G#" },
+      { "fret": 5, "note": "A" },
+      { "fret": 6, "note": "A#" },
+      { "fret": 7, "note": "B" },
+      { "fret": 8, "note": "C" },
+      { "fret": 9, "note": "C#" },
+      { "fret": 10, "note": "D" },
+      { "fret": 11, "note": "D#" },
+      { "fret": 12, "note": "E" }
+    ]
+  },
+  "2": {
+    "open_note": "B",
+    "notes": [
+      { "fret": 1, "note": "C" },
+      { "fret": 2, "note": "C#" },
+      { "fret": 3, "note": "D" },
+      { "fret": 4, "note": "D#" },
+      { "fret": 5, "note": "E" },
+      { "fret": 6, "note": "F" },
+      { "fret": 7, "note": "F#" },
+      { "fret": 8, "note": "G" },
+      { "fret": 9, "note": "G#" },
+      { "fret": 10, "note": "A" },
+      { "fret": 11, "note": "A#" },
+      { "fret": 12, "note": "B" }
+    ]
+  },
+  "3": {
+    "open_note": "G",
+    "notes": [
+      { "fret": 1, "note": "G#" },
+      { "fret": 2, "note": "A" },
+      { "fret": 3, "note": "A#" },
+      { "fret": 4, "note": "B" },
+      { "fret": 5, "note": "C" },
+      { "fret": 6, "note": "C#" },
+      { "fret": 7, "note": "D" },
+      { "fret": 8, "note": "D#" },
+      { "fret": 9, "note": "E" },
+      { "fret": 10, "note": "F" },
+      { "fret": 11, "note": "F#" },
+      { "fret": 12, "note": "G" }
+    ]
+  },
+  "4": {
+    "open_note": "D",
+    "notes": [
+      { "fret": 1, "note": "D#" },
+      { "fret": 2, "note": "E" },
+      { "fret": 3, "note": "F" },
+      { "fret": 4, "note": "F#" },
+      { "fret": 5, "note": "G" },
+      { "fret": 6, "note": "G#" },
+      { "fret": 7, "note": "A" },
+      { "fret": 8, "note": "A#" },
+      { "fret": 9, "note": "B" },
+      { "fret": 10, "note": "C" },
+      { "fret": 11, "note": "C#" },
+      { "fret": 12, "note": "D" }
+    ]
+  },
+  "5": {
+    "open_note": "A",
+    "notes": [
+      { "fret": 1, "note": "A#" },
+      { "fret": 2, "note": "B" },
+      { "fret": 3, "note": "C" },
+      { "fret": 4, "note": "C#" },
+      { "fret": 5, "note": "D" },
+      { "fret": 6, "note": "D#" },
+      { "fret": 7, "note": "E" },
+      { "fret": 8, "note": "F" },
+      { "fret": 9, "note": "F#" },
+      { "fret": 10, "note": "G" },
+      { "fret": 11, "note": "G#" },
+      { "fret": 12, "note": "A" }
+    ]
+  },
+  "6": {
+    "open_note": "E",
+    "notes": [
+      { "fret": 1, "note": "F" },
+      { "fret": 2, "note": "F#" },
+      { "fret": 3, "note": "G" },
+      { "fret": 4, "note": "G#" },
+      { "fret": 5, "note": "A" },
+      { "fret": 6, "note": "A#" },
+      { "fret": 7, "note": "B" },
+      { "fret": 8, "note": "C" },
+      { "fret": 9, "note": "C#" },
+      { "fret": 10, "note": "D" },
+      { "fret": 11, "note": "D#" },
+      { "fret": 12, "note": "E" }
+    ]
+  }
+}

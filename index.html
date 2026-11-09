@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Diapasón de Guitarra</title>
+</head>
+
+<body>
+
+    <section class="mode-selection">
+
+        <button>GUESS THE NOTE</button>
+        <button>FIND THE NOTE</button>
+
+    </section>
+
+    <section class="string-selection">
+        <button disabled data-string="1">1</button>
+        <button disabled data-string="2">2</button>
+        <button disabled data-string="3">3</button>
+        <button disabled data-string="4">4</button>
+        <button disabled data-string="5">5</button>
+        <button disabled data-string="6">6</button>
+    </section>
+
+    <section class="note-selection">
+        <button disabled data-note="C">C</button>
+        <button disabled data-note="C#">C#</button>
+        <button disabled data-note="D">D</button>
+        <button disabled data-note="D#">D#</button>
+        <button disabled data-note="E">E</button>
+        <button disabled data-note="F">F</button>
+        <button disabled data-note="F#">F#</button>
+        <button disabled data-note="G">G</button>
+        <button disabled data-note="G#">G#</button>
+        <button disabled data-note="A">A</button>
+        <button disabled data-note="A#">A#</button>
+        <button disabled data-note="A">B</button>
+    </section>
+
+    <section class="text">
+        <h3 id="note-name"></h3>
+    </section>
+
+    <section>
+        <h3 class="note-guess"></h3>
+    </section>
+
+    <section class="guitar">
+        <article class="fret-board">
+
+            <div class="side-dots">
+                <div class="side-dot dot-fret-3"></div>
+                <div class="side-dot dot-fret-5"></div>
+                <div class="side-dot dot-fret-7"></div>
+                <div class="side-dot dot-fret-9"></div>
+                <div class="side-dot dot-fret-12-top"></div>
+                <div class="side-dot dot-fret-12-bottom"></div>
+            </div>
+
+            <div class="fret string-1">
+                <div class="string"></div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="1"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="2"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="3"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="4"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="5"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="6"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="7"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="8"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="9"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="10"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="11"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="1" data-fret="12"></div>
+                </div>
+            </div>
+
+            <div class="fret string-2">
+                <div class="string"></div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="1"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="2"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="3"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="4"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="5"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="6"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="7"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="8"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="9"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="10"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="11"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="2" data-fret="12"></div>
+                    <div class="inlay"></div>
+                </div>
+            </div>
+
+            <div class="fret string-3">
+                <div class="string"></div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="1"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="2"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="3"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="4"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="5"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="6"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="7"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="8"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="9"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="10"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="11"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="3" data-fret="12"></div>
+                </div>
+            </div>
+
+            <div class="fret string-4">
+                <div class="string"></div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="1"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="2"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="3"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="4"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="5"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="6"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="7"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="8"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="9"></div>
+                    <div class="inlay"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="10"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="11"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="4" data-fret="12"></div>
+                </div>
+            </div>
+
+            <div class="fret string-5">
+                <div class="string"></div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="1"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="2"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="3"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="4"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="5"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="6"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="7"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="8"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="9"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="10"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="11"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="5" data-fret="12"></div>
+                    <div class="inlay"></div>
+                </div>
+            </div>
+
+            <div class="fret string-6">
+                <div class="string"></div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="1"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="2"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="3"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="4"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="5"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="6"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="7"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="8"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="9"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="10"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="11"></div>
+                </div>
+                <div class="note">
+                    <div class="note-circle" data-string="6" data-fret="12"></div>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+    <script src="js/main.js" type="module"></script>
+
+</body>
+
+</html>
